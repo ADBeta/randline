@@ -4,7 +4,7 @@ OBJ_DIR := obj
 BIN_DIR := bin
 
 #TARGET
-TARGET := $(BIN_DIR)/linepicker
+TARGET := $(BIN_DIR)/randline
 
 #Source files
 SRCS := $(wildcard $(SRC_DIR)/*.cpp)
