@@ -115,8 +115,6 @@ int main(int argc, char *argv[]) {
 		if(linesToPrint < 1) linesToPrint = 1;
 	}
 	
-	std::cout << "lines to print: " << linesToPrint << std::endl;
-	
 	for(size_t printLine = 0; printLine < linesToPrint; ++printLine) {
 		size_t currentLine = printLine + randLineNum;
 		
